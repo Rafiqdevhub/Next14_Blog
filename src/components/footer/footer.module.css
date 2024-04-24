@@ -28,11 +28,7 @@
     font-weight: 300;
   }
   
-  .icons {
-    margin-top: 10px;
-    display: flex;
-    gap: 10px;
-  }
+  
   
   .links {
     flex: 1;

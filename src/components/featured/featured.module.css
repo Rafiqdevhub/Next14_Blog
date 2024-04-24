@@ -3,8 +3,9 @@
   }
   
   .title {
-    font-size: 96px;
-    font-weight: 300;
+    font-size: 80px;
+    font-weight: 150;
+    font-style:inherit;
   }
   
   .post {

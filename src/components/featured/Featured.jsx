@@ -1,30 +1,32 @@
-import React from "react";
-import styles from "./featured.module.css";
 import Image from "next/image";
-import Link from "next/link";
+import styles from "./featured.module.css";
 
 const Featured = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>
-        <b>Hey, lama dev here!</b> Discover my stories and creative ideas.
+        Code & Conquer: Mastering the Art of Modern Web Development
       </h1>
       <div className={styles.post}>
         <div className={styles.imgContainer}>
           <Image src="/p1.jpeg" alt="" fill className={styles.image} />
         </div>
         <div className={styles.textContainer}>
-          <h1 className={styles.postTitle}>Lorem ipsum dolor sit amet alim consectetur adipisicing elit.</h1>
+          <h1 className={styles.postTitle}>
+            Breaking Barriers: How Emerging Technologies Are Redefining Web
+            Development
+          </h1>
           <p className={styles.postDesc}>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Cupiditate, quam nisi magni ea laborum inventore voluptatum
-            laudantium repellat ducimus unde aspernatur fuga. Quo, accusantium
-            quisquam! Harum unde sit culpa debitis.
+            Dive into the future of web development with our comprehensive guide
+            to the most exciting trends shaping the digital landscape in 2024.
+            From AI-driven design to the rise of progressive web apps, discover
+            how these innovative technologies are enhancing creativity and
+            efficiency for developers around the globe. Stay ahead of the curve
+            and transform your web projects with cutting-edge insights and
+            tools. Explore our expert analyses and tips to unleash your creative
+            potential and build breathtaking, dynamic websites that captivate
+            and engage
           </p>
-          <Link href={'/'}>
-          
-          <button className={styles.button}>Read More</button>
-          </Link>
         </div>
       </div>
     </div>

@@ -1,46 +1,43 @@
-import React from "react";
-import styles from "./footer.module.css";
-import Image from "next/image";
 import Link from "next/link";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import "./Footer.css"; // Import CSS for styling
 
 const Footer = () => {
   return (
-    <div className={styles.container}>
-      <div className={styles.info}>
-        <div className={styles.logo}>
-          <Image src="/logo.png" alt="lama blog" width={50} height={50} />
-          <h1 className={styles.logoText}>DavDream</h1>
+    <footer className="footer">
+      <div className="footer-container">
+        <div className="footer-social">
+          <a
+            href="https://github.com/Rafiq825"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub className="social-icon" />
+          </a>
+          <a
+            href="https://twitter.com/Rafiq85825"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaTwitter className="social-icon" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/rafiq825"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin className="social-icon" />
+          </a>
         </div>
-        <p className={styles.desc}>
-          Join us at "DevDreamer," where every line of code helps build dreams,
-          and every shared experience strengthens a community of future thinkers
-          and dreamers. Let's embark on this journey together, exploring the
-          endless possibilities that technology and imagination have to offer.
-        </p>
-        <div className={styles.icons}>
-          <Image src="/facebook.png" alt="" width={18} height={18} />
-          <Image src="/instagram.png" alt="" width={18} height={18} />
-        </div>
-      </div>
-      <div className={styles.links}>
-        <div className={styles.list}>
-          <span className={styles.listTitle}>Links</span>
-          <Link href="/">Blog</Link>
+        <div className="footer-links">
           <Link href="/about">About</Link>
           <Link href="/contact">Contact</Link>
         </div>
-        <div className={styles.list}>
-          <span className={styles.listTitle}>Tags</span>
-          <Link href="/">Coding</Link>
-          <Link href="/">Travel</Link>
-        </div>
-        <div className={styles.list}>
-          <span className={styles.listTitle}>Social</span>
-          <Link href="/">Facebook</Link>
-          <Link href="/">Instagram</Link>
-        </div>
       </div>
-    </div>
+      <div className="footer-copyright">
+        &copy; {new Date().getFullYear()} DevDream. All rights reserved.
+      </div>
+    </footer>
   );
 };
 
