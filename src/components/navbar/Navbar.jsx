@@ -17,7 +17,7 @@ const Navbar = () => {
       </div>
 
       <div className={styles.logo}>
-        <Link href={"/"}>Blog App</Link>
+        <Link href={"/"}>DevDream</Link>
       </div>
       <div className={styles.links}>
         <ThemeToggle />
