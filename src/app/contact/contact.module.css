@@ -1,53 +1,57 @@
+/* styles.css */
+
+/* Container styles */
 .contact-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .contact-form {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 5px;
-  }
-  
-  .contact-form label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .contact-form input,
-  .contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .contact-form button {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .contact-form button:hover {
-    background-color: #0056b3;
-  }
-  
-  .social-icons {
-    margin-top: 20px;
-  }
-  
-  .social-icon {
-    font-size: 20px;
-    margin-right: 10px;
-    color: #333;
-  }
-  
-  .social-icon:hover {
-    color: #007bff;
-  }
-  
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Heading styles */
+.contact-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+.contact-container form {
+  display: grid;
+  grid-gap: 10px;
+}
+
+/* Label styles */
+.contact-container label {
+  font-weight: bold;
+}
+
+/* Input styles */
+.contact-container input,
+.contact-container textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button styles */
+.contact-container button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Message styles */
+.contact-container p {
+  font-size: 1rem;
+  margin-top: 20px;
+}
