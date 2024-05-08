@@ -11,3 +11,11 @@ Styling with Tailwind CSS: Utilize the utility-first CSS framework for rapid and
 Comment System: Integrated lightweight comment system allowing users to engage with your content.
 Analytics Integration: Built-in support for Google Analytics to track and analyze your audience.
 Fully Responsive: Ensures a smooth reading experience on any device, be it mobile, tablet, or desktop.
+
+## Getting Started
+To get started with the Next Blog App, clone this repository to your local machine. Install the dependencies and run the development server:
+
+git clone https://github.com/Rafiq825/Next14_Blog.git
+cd Next14_Blog
+npm install
+npm run dev
