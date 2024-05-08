@@ -15,7 +15,7 @@ Fully Responsive: Ensures a smooth reading experience on any device, be it mobil
 ## Getting Started
 To get started with the Next Blog App, clone this repository to your local machine. Install the dependencies and run the development server:
 
-git clone https://github.com/Rafiq825/Next14_Blog.git
-cd Next14_Blog
-npm install
+git clone https://github.com/Rafiq825/Next14_Blog.git <br>
+cd Next14_Blog <br>
+npm install <br>
 npm run dev
